@@ -262,6 +262,15 @@
     .soporte-icon { font-size: 36px; margin-bottom: 16px; }
     .soporte-title { font-family: var(--heading); font-size: 15px; letter-spacing: .08em; margin-bottom: 8px; }
     .soporte-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.soporte-plan {
+  margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+  border: 1px solid rgba(204,18,68,.35); border-radius: 16px; padding: 28px 32px; background: rgba(204,18,68,.06);
+}
+.soporte-plan > div:first-child { flex: 1 1 320px; }
+.soporte-plan-title { font-family: var(--heading); font-size: 22px; letter-spacing: .06em; margin-bottom: 8px; }
+.soporte-plan-price { text-align: right; }
+.soporte-plan-value { display: block; font-family: var(--heading); font-size: 40px; color: var(--red); letter-spacing: .03em; line-height: 1; }
+.soporte-plan-period { font-size: 13px; color: var(--muted); }
 
     /* ── Inversión por módulos ── */
     .modules-grid {
@@ -904,6 +913,17 @@
         <p class="soporte-desc">Pequeños cambios de diseño o funcionalidad que surjan durante el uso real.</p>
       </div>
     </div>
+    <div class="soporte-plan reveal">
+      <div>
+        <p class="tag" style="margin-bottom:6px">Después de los 2 meses</p>
+        <h3 class="soporte-plan-title">PLAN DE SOPORTE TRIMESTRAL</h3>
+        <p class="soporte-desc">El mismo acompañamiento (corrección de bugs, contenido, WhatsApp y ajustes) se renueva cada 3 meses. Es opcional: se activa solo si lo necesitas.</p>
+      </div>
+      <div class="soporte-plan-price">
+        <span class="soporte-plan-value">$400.000</span>
+        <span class="soporte-plan-period">COP cada 3 meses</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1161,7 +1181,7 @@
         <span class="total-breakdown-pill">Compra + Dashboard $1.700.000</span>
       </div>
       <a href="#contacto" class="btn-cta">QUIERO ESTE PROYECTO</a>
-      <p class="inversion-note">Pago 50% al inicio · 50% al entregar · Sin costos ocultos · 2 meses de soporte incluidos</p>
+      <p class="inversion-note">Pago 50% al inicio · 50% al entregar · Sin costos ocultos · 2 meses de soporte incluidos · Luego soporte opcional de $400.000 trimestral</p>
     </div>
   </div>
 </section>
